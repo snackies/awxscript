@@ -4,7 +4,7 @@
   tasks:
     - name: Check for the existence of a directory
       stat:
-        path: /path/to/directory  # Update this path to the directory you want to check
+        path: /var/log/ # Update this path to the directory you want to check
       register: directory_stat
 
     - name: Print message if directory exists
